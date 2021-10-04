@@ -22,7 +22,7 @@ https://hackersanddesigners.github.io/tool_hacking/build/
 ----
 
 :data-x: r140
-:data-y: r172
+:data-y: r116
 :data-scale: 0.075
 
 .. image:: ./images/Atmega328_die.jpg
@@ -228,10 +228,14 @@ Buttons, Pull-up & Pull-down
 
 :data-x: r1600
 
-Buttons, Pull-up & Pull-down
+pinMode INPUT_PULLUP
 ===============================
 
 .. image:: ./images/ArduinoUno_Button_InternalPullUpResistor_WiringDiagram.png
+
+.. code:: arduino
+    
+    pinMode(2, INPUT_PULLUP);
 
 ----
 
