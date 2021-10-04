@@ -16,6 +16,9 @@ Hacking Tools
 
 .. image:: images/Arduino.png
 
+https://github.com/hackersanddesigners/tool_hacking
+https://hackersanddesigners.github.io/tool_hacking/build/
+
 ----
 
 :data-x: r140
