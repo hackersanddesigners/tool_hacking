@@ -19,8 +19,8 @@ Hacking Tools
 ----
 
 :data-x: r140
-:data-y: r170
-:data-scale: 0.07
+:data-y: r172
+:data-scale: 0.075
 
 .. image:: ./images/Atmega328_die.jpg
 
@@ -102,10 +102,10 @@ Output (Actuators)
 
 Some Terms
 ==========
-* ‘sketch’ – program that runs on the Arduino
-* ‘pin’ – input or output connected to something, like a LED or a switch
-* ‘digital’ – 1 (HIGH) or 0 (LOW) value (on/off)
-* ‘analog’ – a range of voltages between 0 and 5 volts, instead of discrete on and off.
+* ‘**sketch**’ – program that runs on the Arduino
+* ‘**pin**’ – input or output connected to something, like a LED or a switch
+* ‘**digital**’ – 1 (HIGH) or 0 (LOW) value (on/off)
+* ‘**analog**’ – a range of voltages between 0 and 5 volts, instead of discrete on and off.
 
 ----
 
@@ -232,6 +232,13 @@ Buttons, Pull-up & Pull-down
 
 ----
 
+Examples Arduino
+================
+
+File > Examples > USB
+
+----
+
 :data-x: r1600
 
 Keyboard
@@ -255,6 +262,26 @@ Keyboard
             delay( 100 ); // do nothing for 0.1 second
         }
     }
+
+----
+
+Logging out
+===========
+
+...code
+
+.. code:: arduino
+
+    Keyboard.press(KEY_LEFT_GUI);
+    // Shift-Q logs out:
+    Keyboard.press(KEY_LEFT_SHIFT);
+    Keyboard.press('Q');
+    delay(100);
+    Keyboard.releaseAll();
+    // enter:
+    Keyboard.write(KEY_RETURN);
+
+code...
 
 ----
 
@@ -351,7 +378,7 @@ Mouse
 ========
 
 * Mouse.click()
-* Mouse.move()
+* Mouse.move() // movements are relative
 * Mouse.press()
 * Mouse.release()
 * Mouse.isPressed()
