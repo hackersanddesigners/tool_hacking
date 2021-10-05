@@ -272,6 +272,19 @@ Keyboard
 
 ----
 
+Fail safe
+=========
+
+.. code:: arduino
+
+    void setup() { 
+        // ... other code
+        delay(3000); // wait a few seconds before starting the main program 
+    }
+
+
+----
+
 Logging out
 ===========
 
