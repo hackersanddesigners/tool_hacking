@@ -49,9 +49,8 @@ Arduino is...
 
 ----
 
-:data-scale: 1.4
-
 .. image:: images/input_output.png 
+  
 
 ----
 
@@ -111,9 +110,6 @@ Some Terms
 * ‘**analog**’ – a range of voltages between 0 and 5 volts, instead of discrete on and off.
 
 ----
-
-:data-x: r1600
-:data-y: r0
 
 Setting up the software
 =======================
@@ -236,6 +232,7 @@ pinMode INPUT_PULLUP
 .. code:: arduino
     
     pinMode(2, INPUT_PULLUP);
+    // Take note: LOW => pressed button
 
 ----
 
@@ -264,13 +261,25 @@ Keyboard
 
     void loop() {
         int pressed = digitalRead( buttonPin );  // read pin 3
-        if( pressed == HIGH ){ // if the button is pressed
+        if( pressed == LOW ){ // if the button is pressed
             Keyboard.write( 'd' ); // print the letter d
             delay( 100 ); // do nothing for 0.1 second
         }
     }
 
 ----
+
+:data-scale: 0.5
+:data-x: r500
+:data-y: r-300
+
+.. image:: ./images/Button_pin3.png
+
+----
+
+:data-scale: 1
+:data-x: r1600
+:data-y: r300
 
 Fail safe
 =========
@@ -284,6 +293,8 @@ Fail safe
 
 
 ----
+
+:data-y: 0
 
 Logging out
 ===========
@@ -368,14 +379,14 @@ Keyboard
 
 ----
 
-Mouse
-=====
+Mouse Click
+===========
 
 .. code:: arduino
 
     #include <Mouse.h>
 
-    int buttonPin = 9;  // Set a button to any pin
+    int buttonPin = 3;  // Set a button to any pin
 
     void setup()
     {
@@ -393,6 +404,63 @@ Mouse
     }
 
 ----
+
+:data-scale: 0.5
+:data-x: r500
+:data-y: r-300
+
+.. image:: ./images/Button_pin3.png
+
+----
+
+:data-scale: 1
+:data-x: r1600
+:data-y: r300
+
+Mouse Move & Click
+==================
+
+.. code:: arduino
+
+    #include "Mouse.h"
+
+    int upButton = 3;
+    int mouseButton = 4;
+
+    void setup() {
+      pinMode(upButton, INPUT_PULLUP);
+      pinMode(mouseButton, INPUT_PULLUP);
+      Mouse.begin();
+    }
+
+    void loop() {
+      if (digitalRead(upButton) == LOW ) {
+        Mouse.move(0, -10, 0); // x, y, scrollwheel
+      }
+
+      if (digitalRead(mouseButton) == LOW) { // mouse button pressed
+          Mouse.press(MOUSE_LEFT);
+      } else { // mouse button released
+          Mouse.release(MOUSE_LEFT);
+      }
+
+      // a delay so the mouse doesn't move too fast:
+      delay(20);
+    }
+
+----
+
+:data-scale: 0.5
+:data-x: r500
+:data-y: r-300
+
+.. image:: ./images/Button_pin3_4.png
+
+----
+
+:data-scale: 1
+:data-x: r1600
+:data-y: r300
 
 Mouse
 ========

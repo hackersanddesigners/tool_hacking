@@ -27,19 +27,17 @@ body {
   font-family: "nunito";
 }
 
-body.bgg {
-  background-image:#ffe299;background-image:  
-  radial-gradient(at 75% 93%, hsla(166,75%,66%,1) 0, transparent 58%),  
-  radial-gradient(at 49% 7%, hsla(331,61%,67%,1) 0, transparent 53%),  
-  radial-gradient(at 25% 31%, hsla(46,88%,63%,1) 0, transparent 41%),  
-  radial-gradient(at 30% 8%, hsla(251,84%,73%,1) 0, transparent 56%),  
-  radial-gradient(at 37% 35%, hsla(58,86%,60%,1) 0, transparent 42%),  
-  radial-gradient(at 75% 35%, hsla(63,87%,63%,1) 0, transparent 58%),  
-  radial-gradient(at 86% 12%, hsla(322,87%,65%,1) 0, transparent 51%);
+a {
+  color: teal;
+}
+
+img {
+  max-width: 100%;
 }
 
 .step strong {
-  color: red;
+  color: teal;
+  font-weight: normal;
 }
 
 .header p,
@@ -49,10 +47,6 @@ h1, h2, h3, h4 {
 
 .header p {
   font-size: 2rem;
-}
-
-img {
-  max-width: 100%;
 }
 
 .full-width-image img {
