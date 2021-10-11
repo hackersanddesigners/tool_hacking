@@ -14,7 +14,7 @@
 Hacking Tools
 ======================
 
-.. image:: images/Arduino.png
+.. image:: assets/images/Arduino.png
 
 https://github.com/hackersanddesigners/tool_hacking
 https://hackersanddesigners.github.io/tool_hacking/build/
@@ -25,7 +25,7 @@ https://hackersanddesigners.github.io/tool_hacking/build/
 :data-y: r116
 :data-scale: 0.075
 
-.. image:: ./images/Atmega328_die.jpg
+.. image:: ./assets/images/Atmega328_die.jpg
 
 ----
 
@@ -45,11 +45,11 @@ Arduino is...
 
 ----
 
-.. image:: images/Arduino_models.png
+.. image:: assets/images/Arduino_models.png
 
 ----
 
-.. image:: images/input_output.png 
+.. image:: assets/images/input_output.png 
   
 
 ----
@@ -147,7 +147,7 @@ Hello World
 Verify
 ======
 
-.. image:: ./images/Verify.png
+.. image:: ./assets/images/Verify.png
 
 ----
 
@@ -157,7 +157,7 @@ Verify
 Errors?
 =======
 
-.. image:: ./images/Errors.png
+.. image:: ./assets/images/Errors.png
 
 
 ----
@@ -165,7 +165,7 @@ Errors?
 Upload
 ======
 
-.. image:: ./images/Compile.png
+.. image:: ./assets/images/Compile.png
 
 
 ----
@@ -181,7 +181,7 @@ WOOHOO!
 .. raw:: html
 
   <video width="100%"  autoplay loop>
-    <source src="./images/blink.mp4" type="video/mp4" >
+    <source src="./assets/videos/blink.mp4" type="video/mp4" >
   </video>
 
 ----
@@ -204,20 +204,20 @@ WOOHOO!
 circuit
 =======
 
-.. image:: ./images/circuit.png
+.. image:: ./assets/images/circuit.png
 
 ----
 
 Buttons, Pull-up & Pull-down
 ===============================
 
-.. image:: ./images/floating.png
+.. image:: ./assets/images/floating.png
 
 ----
 
 :data-x: r700
 
-.. image:: ./images/logiclevels.png
+.. image:: ./assets/images/logiclevels.png
     :height: 500px
 
 ----
@@ -227,7 +227,7 @@ Buttons, Pull-up & Pull-down
 pinMode INPUT_PULLUP
 ===============================
 
-.. image:: ./images/ArduinoUno_Button_InternalPullUpResistor_WiringDiagram.png
+.. image:: ./assets/images/ArduinoUno_Button_InternalPullUpResistor_WiringDiagram.png
 
 .. code:: arduino
     
@@ -273,7 +273,7 @@ Keyboard
 :data-x: r500
 :data-y: r-300
 
-.. image:: ./images/Button_pin3.png
+.. image:: ./assets/images/Button_pin3.png
 
 ----
 
@@ -409,7 +409,7 @@ Mouse Click
 :data-x: r500
 :data-y: r-300
 
-.. image:: ./images/Button_pin3.png
+.. image:: ./assets/images/Button_pin3.png
 
 ----
 
@@ -454,7 +454,7 @@ Mouse Move & Click
 :data-x: r500
 :data-y: r-300
 
-.. image:: ./images/Button_pin3_4.png
+.. image:: ./assets/images/Button_pin3_4.png
 
 ----
 
