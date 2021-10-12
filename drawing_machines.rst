@@ -29,9 +29,12 @@ Albrecht Durer
 Jean Tinguely
 =============
 
+.. image:: ./assets/images/JeanTinguely-0001.png
+  :class: hidden
+
 .. raw:: html
 
-  <video width="100%" controls>
+  <video width="100%" controls poster="./assets/images/JeanTinguely-0001.png">
     <source src="./assets/videos/JeanTinguely.mp4" type="video/mp4" >
   </video>
 
@@ -40,23 +43,43 @@ Jean Tinguely
 Olafur Eliason
 ==============
 
+.. image:: ./assets/images/OlafurEliasson-0001.png
+  :class: hidden
+
 .. raw:: html
 
-  <video width="100%" controls>
+  <video width="100%" controls poster="./assets/images/OlafurEliasson-0001.png">
     <source src="./assets/videos/OlafurEliasson.mp4" type="video/mp4" >
   </video>
 
+.. note::
+  
+  Harmonograph
+
+
 ----
 
 Damien Hirst
 ============
 
+.. image:: ./assets/images/damienhirst.png
+  :class: hidden
+
 .. raw:: html
 
-  <video width="100%" controls>
+  <video width="100%" controls poster="./assets/images/damienhirst.png">
     <source src="./assets/videos/DamienHirst.mp4" type="video/mp4" >
   </video>
 
+.. note::
+  I love making spin paintings with kids, I’ve got a spin machine that I take to my kids' school and get all the kids doing them, the joy of making them is what somehow makes them great art and all those crazy moments throwing paint around and mostly not knowing what you’re doing is distilled in the final result and that’s why they’re so amazing; they immortalise a feeling or a collection of feelings, a fleeting, colourful happiness, they are like tracks in time, like footprints in the snow. 
+  What does an artwork say about an artist’s personality? Is the person of the artist always present in the piece of art? It’s something I’ve thought of quite often with the spins because they’re an interesting meditation on the role of the artist – the results manage to say not a lot about the person who has spun them, because they’re governed by the forces of chance and movement, and in the end it’s harder to make a bad one than a good one and they all look similar in some way whoever makes them. 
+
+  David called them 'art without the angst'.
+
+  https://www.sothebys.com/en/articles/hirst-on-bowie
+
+
 ----
 
 Damien Hirst
@@ -64,7 +87,7 @@ Damien Hirst
 
 .. raw:: html
 
-  <video width="100%" controls>
+  <video width="100%" controls >
     <source src="./assets/videos/Damien Hirst x Snapchat in support of Partners in Health _ Spin Art.mp4" type="video/mp4" >
   </video>
 
@@ -85,9 +108,12 @@ Tim Lewis
 Harvey Moon
 ===========
 
+.. image:: ./assets/images/harveymoon.png
+    :class: hidden
+
 .. raw:: html
 
-  <video width="100%" controls>
+  <video width="100%" controls poster="./assets/images/harveymoon.png">
     <source src="./assets/videos/Robot Art_ Harvey Moon's Drawing Machines.mp4" type="video/mp4" >
   </video>
 
