@@ -45,6 +45,12 @@ h1, h2, h3, h4 {
   font-family: 'major-mono';
 }
 
+.hidden {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  overflow: hidden;
+}
 
 .header p {
   font-size: 2rem;
