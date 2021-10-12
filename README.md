@@ -8,3 +8,4 @@ To download click on the green '**Code**' button and click on **Download Zip**  
 ## Presentation slides
 The slides are hosted on [https://hackersanddesigners.github.io/tool_hacking/build/](https://hackersanddesigners.github.io/tool_hacking/build/) or in the /build directory of this repository.
 
+Todo: add credits for images / videos

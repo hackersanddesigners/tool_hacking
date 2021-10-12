@@ -228,7 +228,7 @@ Random
 
 ----
 
-:data-x: r630
+:data-x: r620
 :data-y: r-300
 
 .. image:: ./assets/images/drawing_machine_2.jpg
@@ -319,7 +319,15 @@ Potentiometer
 
 ----
 
+:data-x: r0
+:data-y: r600
+
+.. image:: ./assets/images/stepper_pot.png
+
+----
+
 :data-x: r800
+:data-y: r-600
 :data-scale: 0.1
 
 .. image:: ./assets/images/machine1.jpg
