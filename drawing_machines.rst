@@ -56,6 +56,8 @@ Olafur Eliason
   
   Harmonograph
 
+  This work is a machine for producing geometrical drawings. Inspired by the harmonograph, an invention from the nineteenth-century, the device uses a pen attached to a system of pendulums to generate complex forms comprised of curved lines. Once the initial conditions – pen, pendulums, momentum – are established, the unfolding process completes the artwork.
+
 
 ----
 
