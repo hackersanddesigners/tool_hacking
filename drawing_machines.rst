@@ -347,6 +347,13 @@ Potentiometer
 
 ----
 
+External Power
+==============
+
+.. image:: ./assets/images/external_power.png
+
+----
+
 :data-x: r0
 :data-y: r600
 
